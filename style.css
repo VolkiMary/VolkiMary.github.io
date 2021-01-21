@@ -1,0 +1,225 @@
+/* Menu */
+#menu {
+    margin: 50px 100px;
+}
+#form {
+    margin: 50px 100px;  
+}
+.wrapper-menu {
+    width: 358px;
+    height: 196px;
+    background-color: #E5E5E5;
+    border: 1px #000000 solid;
+    border-radius: 10px;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.25);
+}
+#navbar {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    width: 358px;
+   
+  }
+  #navbar li a:hover {
+    color: #ffe; /* Цвет текста активного пункта */
+    background-color: #9C9C9C /* Цвет фона активного пункта */
+   }
+  #navbar a {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    background-color:  #E5E5E5;
+    color: #000000;
+    padding:10px 20px 10px 20px; 
+    text-decoration: none;
+    display: flex; 
+  }
+ .roundtop {
+     border-radius: 10px 10px 0px 0px;
+ }
+ .roundbottom {
+    border-radius: 0px 0px 10px 10px;
+ }
+
+  .shadowtext {
+      text-shadow:4px 0 4px rgba(0, 0, 0, 0.25) ;
+  }
+
+
+/* Form */
+
+.wrapper-form {
+    width: 400px;
+    height: 100%;
+    background-color: #9C9C9C;
+    border: 2px #3A3A3A solid ;
+    border-radius: 5px;
+}
+
+.reg {
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    margin: 0px;
+    padding: 20px;
+}
+
+.form {
+    border: 1px solid; 
+    overflow: hidden;
+    width: 360px;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    border-color: #c6c7cc #9C9C9C;
+  }
+
+  .account-info {
+    border: 0;
+    margin: 0;   
+     padding-left: 0px;
+   
+  }
+label {
+    margin-bottom: 5px;
+}
+
+
+  input {
+    border-radius: 5px;
+    margin-bottom: 20px;
+    height: 28px;
+    padding-left: 10px;
+  }
+
+  .account-info label {
+    color: #3A3A3A;
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    font-weight: regular;
+    font-size: 14px;
+  }
+
+  .account-info input {
+    background: #fff;
+    border: 1px solid #c6c7cc;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .1);
+    color: #636466;
+    width: 100%;
+  }
+
+  .input-wrapper {
+      display: block;
+      width: 155px;
+  }
+.input-wrapper-line {
+ display: flex;
+ justify-content: space-between;
+}
+
+.account-action {
+    background: #9C9C9C;
+    padding: 20px;
+    width: 360px;
+    height: 32px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+
+  .account-action .btn {
+    border: 0;
+    color: #CCCCCC; 
+    cursor: pointer;
+    font-weight: 400;
+    float: left;
+    padding: 8px 10px;
+  }
+  .btn {
+      background: #616161;
+      width: 95px;
+      height: 32px;
+  }
+  .account-action .grey {
+    color: #616161;
+  }
+  .grey {
+    width: 74px;
+    background: #CCCCCC;
+  }
+
+  /* Stepper */
+
+.step-form {
+  display: flex;
+}
+
+
+ .step-one {
+   position: relative;
+   width: 310px;
+   height: 60px;
+   background: linear-gradient(180deg, #686868 0%, #B3B3B3 50.52%, #686868 100%);
+}
+.step-one::after {
+  content: "";
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    border-top: 22px solid #ffffff;
+    border-right: 22px solid #ffffff;
+    margin-right: 60px;
+    transform: rotate(45deg);
+    left: 78%;
+    top: -17%;
+}
+ .step-two {
+ 
+  width: 310px;
+  height: 60px;
+  background: linear-gradient(180deg, #686868 0%, #B3B3B3 50.52%, #686868 100%);
+ }
+ .step-Three {
+  position: relative;
+  width: 310px;
+  height: 60px;
+  background: linear-gradient(180deg, #686868 0%, #B3B3B3 50.52%, #686868 100%);
+ }
+ .step-Three::after {
+  content: "";
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    border-top: 22px solid #ffffff;
+    border-right: 22px solid #ffffff;
+    margin-right: 60px;
+    transform: rotate(45deg);
+    left: -22%;
+    top: -17%;
+}
+
+.text {
+ font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 22px;
+  color: #fff;
+}
+
+#btn {
+    outline: none;
+    border: 0;
+  
+}
+
+#btn:active {
+  background: linear-gradient(180deg, #2EA239 0%, #62FD71 50.52%, #2EA139 100%);
+  transition: background 0,1s;
+  padding: calc(.25em + 1px) .5em calc(.25em - 1px);
+
+  box-shadow: inset 0 -1px 1px rgba(0,0,0,.1), inset 0 1px 2px rgba(0,0,0,.3), inset 0 0 0 60px  linear-gradient(180deg, #2EA239 0%, #62FD71 50.52%, #2EA139 100%);
+}
+
+
